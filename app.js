@@ -7,7 +7,7 @@ const listOftodos = document.querySelector(".listOfTodos");
 add_button.addEventListener("click", addNewTodo);
 
 function addNewTodo() {
-  const todoList = document.createElement("ul")
+  const todoList = document.createElement("div")
   const todo = document.createElement("li")
   todoList.appendChild(todo)
 
@@ -28,6 +28,7 @@ function addNewTodo() {
 
 
   const deleteButton = document.createElement("button")
-  deleteButton.classList.add("delete-btn")
+  deleteButton.innerHTML = `<i class="fas fa-trash"></i>`;
+  deleteButton.classList.add("trash-btn")
   todoList.appendChild(deleteButton)
 }

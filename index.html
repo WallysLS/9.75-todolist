@@ -8,15 +8,20 @@
 </head>
 <link rel="stylesheet" href="style.css" />
 <link href="https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+  integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+
 
 <body>
+  <h1>ANIMATED TODO</h1>
   <div class="container">
-    <h1>ANIMATED TODO</h1>
     <input type="text" class="input" />
-    <button class="add-button">Add Todo</button>
+    <button class="add-button">
+      <i class="fas fa-plus-square"></i>
+    </button>
   </div>
   <div class="listOfTodos">
-    <div class="hey"></div>
+    <ul class="todo-list"></ul>
   </div>
 </body>
 <script src="app.js"></script>
