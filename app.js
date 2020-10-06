@@ -1,10 +1,11 @@
 const container = document.querySelector(".container");
 const input = document.querySelector(".input");
 const add_button = document.querySelector(".add-button");
-const listOftodos = document.querySelector(".listOfTodos");
+const listOftodos = document.querySelector(".todo-list");
 
 
 add_button.addEventListener("click", addNewTodo);
+listOftodos = document.addEventListener("click", deleteTodo)
 
 function addNewTodo() {
   const todoList = document.createElement("div")
@@ -31,4 +32,10 @@ function addNewTodo() {
   deleteButton.innerHTML = `<i class="fas fa-trash"></i>`;
   deleteButton.classList.add("trash-btn")
   todoList.appendChild(deleteButton)
+}
+
+function deleteTodo(event) {
+  const item = event.target
+  console.log(item)
+
 }
