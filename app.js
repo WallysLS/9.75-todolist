@@ -7,20 +7,27 @@ const listOftodos = document.querySelector(".listOfTodos");
 add_button.addEventListener("click", addNewTodo);
 
 function addNewTodo() {
-  var todoList = document.createElement("ul")
-  var todo = document.createElement("li")
+  const todoList = document.createElement("ul")
+  const todo = document.createElement("li")
   todoList.appendChild(todo)
 
-  if (input.value === "") {
+  if (input.value.trim() === "") {
     alert("I'm sorry, your todo can't be empty")
   } else {
     todo.innerHTML = input.value
     document.body.insertBefore(todoList, listOftodos);
 
     input.value = ""
+
   }
 
+  const checkButton = document.createElement("button")
+  checkButton.innerHTML = `<i class="fas fa-check"></i>`
+  checkButton.classList.add("complete-btn")
+  todoList.appendChild(checkButton)
 
 
-
+  const deleteButton = document.createElement("button")
+  deleteButton.classList.add("delete-btn")
+  todoList.appendChild(deleteButton)
 }
