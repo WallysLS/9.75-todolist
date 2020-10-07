@@ -57,6 +57,7 @@ function checkAndDeleteTodo(event) {
   }
 }
 
-function filterTodo() {
-
+function filterTodo(event) {
+  const todos = listOfTodos.childNodes
+  console.log(todos)
 }
