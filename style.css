@@ -29,14 +29,14 @@ button {
  background: rgb(164, 200, 214);
 }
 button {
- color: #9eaae0;
+ color: #103cfd;
  background: #f7fffe;
  cursor: pointer;
  transition: all 0.3s ease;
 }
 
 button:hover {
- background: #ff6f47;
+ background: #ff47b8;
  color: white;
 }
 .todo-container {
@@ -46,7 +46,7 @@ button:hover {
 }
 
 .todo-list {
- min-width: 30%;
+ min-width: 40%;
  list-style: none;
 }
 
@@ -69,7 +69,6 @@ button:hover {
 
 .trash-btn,
 .complete-btn {
- background: #ff6f47;
  color: white;
  border: none;
  padding: 1rem;
@@ -79,6 +78,19 @@ button:hover {
 .complete-btn {
  background: rgb(11, 212, 162);
 }
+
+.complete-btn:hover {
+ background: rgb(0, 255, 191);
+}
+
+.trash-btn {
+ background-color: red;
+}
+
+.trash-btn:hover {
+ background-color: yellow;
+}
+
 .todo-item {
  padding: 0rem 0.5rem;
 }
@@ -94,6 +106,5 @@ button:hover {
 }
 
 .completed {
- text-decoration: line-through;
- opacity: 0.5;
+ opacity: 0.4;
 }
