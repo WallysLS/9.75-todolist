@@ -1,4 +1,4 @@
-const container = document.querySelector(".container");
+const filter = document.querySelector(".filter-todo");
 const input = document.querySelector(".input");
 const add_button = document.querySelector(".add-button");
 const listOfTodos = document.querySelector(".todo-list");
@@ -6,6 +6,8 @@ const listOfTodos = document.querySelector(".todo-list");
 
 add_button.addEventListener("click", addNewTodo);
 listOfTodos.addEventListener("click", checkAndDeleteTodo);
+filter.addEventListener("click", filterTodo);
+
 
 function addNewTodo() {
   const todoDiv = document.createElement("div")
@@ -40,12 +42,21 @@ function addNewTodo() {
 
 function checkAndDeleteTodo(event) {
   const item = event.target;
+  const todo = item.parentElement
   if (item.classList == "complete-btn") {
-    item.parentElement.classList.toggle("completed")
+    todo.classList.toggle("completed")
   }
 
   if (item.classList == "trash-btn") {
-    item.parentElement.remove()
+    todo.classList.add("fall")
+    todo.addEventListener("transitionend", event => {
+      todo.remove();
 
+
+    })
   }
+}
+
+function filterTodo() {
+
 }
