@@ -1,4 +1,8 @@
 body {
- font-family: 'Swanky and Moo Moo', cursive;
+ font-family: "Swanky and Moo Moo", cursive;
+}
 
+.completed {
+ text-decoration: line-through;
+ opacity: 0.5;
 }
