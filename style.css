@@ -1,13 +1,99 @@
-body {
- font-family: "Swanky and Moo Moo", cursive;
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
 
-.completed {
- text-decoration: line-through;
- opacity: 0.5;
+body {
+ font-family: "Swanky and Moo Moo", cursive;
+ min-height: 100vh;
+ background-color: rgb(177, 177, 238);
+}
+
+header {
+ font-size: 3rem;
+}
+header,
+.container {
+ min-height: 20vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+input,
+button {
+ padding: 0.5rem;
+ font-size: 2rem;
+ border: none;
+ background: rgb(164, 200, 214);
+}
+button {
+ color: #9eaae0;
+ background: #f7fffe;
+ cursor: pointer;
+ transition: all 0.3s ease;
+}
+
+button:hover {
+ background: #ff6f47;
+ color: white;
+}
+.todo-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.todo-list {
+ min-width: 30%;
+ list-style: none;
+}
+
+.todoDiv {
+ margin: 0.5rem;
+ background: white;
+ font-size: 1.5rem;
+ color: black;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ transition: all 1s ease;
+}
+.filter-todo {
+ padding: 1rem;
+}
+.todoDiv li {
+ flex: 1;
+}
+
+.trash-btn,
+.complete-btn {
+ background: #ff6f47;
+ color: white;
+ border: none;
+ padding: 1rem;
+ cursor: pointer;
+ font-size: 1rem;
+}
+.complete-btn {
+ background: rgb(11, 212, 162);
+}
+.todo-item {
+ padding: 0rem 0.5rem;
 }
 
 .fa-trash,
 .fa-check {
  pointer-events: none;
+}
+
+.fall {
+ transform: translateY(10rem) rotateZ(20deg);
+ opacity: 0;
+}
+
+.completed {
+ text-decoration: line-through;
+ opacity: 0.5;
 }
