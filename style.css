@@ -27,11 +27,19 @@ form button {
   border: none;
   background: white;
 }
+
+form input {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
 form button {
   color: #ff6f47;
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 form button:hover {
   background: #ff6f47;
@@ -57,9 +65,15 @@ form button:hover {
   justify-content: space-between;
   align-items: center;
   transition: all 1s ease;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .filter-todo {
-  padding: 1rem;
+  padding: 1.1rem;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .todo li {
   flex: 1;
@@ -84,6 +98,11 @@ form button:hover {
 .fa-trash,
 .fa-check {
   pointer-events: none;
+}
+
+.trash-btn {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .fall {
@@ -117,6 +136,9 @@ select {
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   width: 12rem;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .select::after {
   content: "\25BC";
@@ -127,4 +149,6 @@ select {
   background: #ff6f47;
   cursor: pointer;
   pointer-events: none;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
