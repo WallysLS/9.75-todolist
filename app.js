@@ -13,28 +13,24 @@ function addNewTodo() {
   const todo = document.createElement("li");
   todo.classList.add("todo-item");
 
-  if (input.value.trim() === "") {
-    alert("I'm sorry, your todo can't be empty");
-  } else {
-    todo.innerHTML = input.value;
+  todo.innerHTML = input.value;
 
-    todoDiv.appendChild(todo);
-    saveLocalTodos(input.value);
+  todoDiv.appendChild(todo);
 
-    input.value = "";
+  input.value = "";
+  saveLocalTodos(input.value);
 
-    const checkButton = document.createElement("button");
-    checkButton.innerHTML = `<i class="fas fa-check"></i>`;
-    checkButton.classList.add("complete-btn");
-    todoDiv.appendChild(checkButton);
+  const checkButton = document.createElement("button");
+  checkButton.innerHTML = `<i class="fas fa-check"></i>`;
+  checkButton.classList.add("complete-btn");
+  todoDiv.appendChild(checkButton);
 
-    const deleteButton = document.createElement("button");
-    deleteButton.innerHTML = `<i class="fas fa-trash"></i>`;
-    deleteButton.classList.add("trash-btn");
-    todoDiv.appendChild(deleteButton);
+  const deleteButton = document.createElement("button");
+  deleteButton.innerHTML = `<i class="fas fa-trash"></i>`;
+  deleteButton.classList.add("trash-btn");
+  todoDiv.appendChild(deleteButton);
 
-    listOfTodos.appendChild(todoDiv);
-  }
+  listOfTodos.appendChild(todoDiv);
 }
 
 function checkAndDeleteTodo(event) {
@@ -73,15 +69,4 @@ function filterTodo(event) {
         }
     }
   });
-}
-
-function saveLocalTodos(todo) {
-  let todos;
-  if (localStorage.getItem("todos") === null) {
-    todos = [];
-  } else {
-    todos = JSON.parse(localStorage.getItem("todos"));
-  }
-  todos.push(todo);
-  localStorage.setItem("todos", JSON.stringify(todos));
 }
