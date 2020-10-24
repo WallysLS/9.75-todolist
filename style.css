@@ -29,6 +29,7 @@ form button {
 }
 
 form input {
+  font-family: "Quicksand", sans-serif;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
   width: 30%;
@@ -36,6 +37,7 @@ form input {
 }
 
 form button {
+  height: 56px;
   color: #ff6f47;
   background: #f7fffe;
   cursor: pointer;
@@ -51,6 +53,7 @@ form button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .todo-list {
@@ -66,7 +69,7 @@ form button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -97,8 +100,8 @@ form button:hover {
   padding: 0rem 0.5rem;
 }
 
-.fa-trash,
-.fa-check {
+.fa-check-square,
+.fa-trash-alt {
   pointer-events: none;
 }
 
@@ -110,6 +113,7 @@ form button:hover {
 .fall {
   transform: translateY(10rem) rotateZ(20deg);
   opacity: 0;
+  transition: 1s;
 }
 
 .completed {
