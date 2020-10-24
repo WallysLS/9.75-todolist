@@ -31,6 +31,8 @@ form button {
 form input {
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
+  width: 30%;
+  margin-left: 10px;
 }
 
 form button {
@@ -115,28 +117,10 @@ form button:hover {
   opacity: 0.5;
 }
 
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-  outline: 0;
-  box-shadow: none;
-  border: 0 !important;
-  background-image: none;
-}
-
 .select {
   margin: 1rem;
   position: relative;
   overflow: hidden;
-}
-select {
-  color: #ff6f47;
-  font-family: "Poppins", sans-serif;
-  cursor: pointer;
-  width: 12rem;
-  background-color: white;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -151,4 +135,22 @@ select {
   pointer-events: none;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+}
+
+select {
+  color: #ff6f47;
+  font-family: "Quicksand", sans-serif;
+  cursor: pointer;
+  width: 12rem;
+  background-color: white;
 }
