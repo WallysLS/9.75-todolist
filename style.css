@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url("./express2.jpg");
+  background-image: url("./images/express7.png");
   background-size: cover;
   color: white;
   font-family: "Quicksand", sans-serif;
   min-height: 100vh;
+}
+
+img {
+  width: 300px;
 }
 
 header,
@@ -36,7 +40,7 @@ form input {
 
 form button {
   height: 56px;
-  color: #695f5c;
+  color: #a7a5a4;
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -44,7 +48,7 @@ form button {
   border-top-right-radius: 10px;
 }
 form button:hover {
-  background: #695f5c;
+  background: #a7a5a4;
   color: white;
 }
 .todo-container {
@@ -62,7 +66,7 @@ form button:hover {
 .todo {
   margin: 0.5rem;
   background: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: black;
   display: flex;
   justify-content: space-between;
@@ -132,7 +136,7 @@ form button:hover {
   top: 0;
   right: 0;
   padding: 1rem;
-  background: #695f5c;
+  background: #a7a5a4;
 
   cursor: pointer;
   pointer-events: none;
