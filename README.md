@@ -7,6 +7,11 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
 </p>
 
+<p float="left">
+  <img src=".//images/final_ipad.png" width="100" />
+  <img src="./images/j.png" width="100" />
+</p>
+
 <br>
 
 ## 🚀 Technologies
