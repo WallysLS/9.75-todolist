@@ -10,10 +10,6 @@ body {
   font-family: "Quicksand", sans-serif;
   min-height: 100vh;
 }
-header {
-  font-size: 2rem;
-  color: gold;
-}
 
 header,
 form {
@@ -40,7 +36,7 @@ form input {
 
 form button {
   height: 56px;
-  color: #e4a594;
+  color: #695f5c;
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -48,7 +44,7 @@ form button {
   border-top-right-radius: 10px;
 }
 form button:hover {
-  background: #fa8d6f;
+  background: #695f5c;
   color: white;
 }
 .todo-container {
@@ -88,7 +84,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  background: #ff0000c0;
+  background: #ee0000;
   color: white;
   border: none;
   padding: 1rem;
@@ -96,7 +92,7 @@ form button:hover {
   font-size: 1rem;
 }
 .complete-btn {
-  background: rgba(0, 255, 55, 0.753);
+  background: rgb(0, 175, 38);
 }
 .todo-item {
   padding: 0rem 0.5rem;
@@ -136,7 +132,7 @@ form button:hover {
   top: 0;
   right: 0;
   padding: 1rem;
-  background: #fa8d6f;
+  background: #695f5c;
 
   cursor: pointer;
   pointer-events: none;
@@ -155,7 +151,7 @@ select {
 }
 
 select {
-  color: #e28a71;
+  color: #695f5c;
   font-family: "Quicksand", sans-serif;
   cursor: pointer;
   width: 12rem;
