@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="9 3/4 todolist" title="Happy" src="./images/final_logo.png" width="300px" />
+    <img alt="9 3/4 todolist" title="Happy" src="./public/images/final_logo.png" width="300px" />
 </h1>
 <p align="center">
  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=15C3D6&labelColor=000000" alt="PRs are welcome!" />
@@ -9,8 +9,8 @@
 
 <p float="left">
 
-  <img src=".//images/final_ipad.png" width="600" />
-  <img src="./images/iphone.png" width="150" />
+  <img src="./public/images/final_ipad.png" width="600" />
+  <img src="./public/images/iphone.png" width="150" />
 </p>
 
 <br>
@@ -22,7 +22,7 @@ This project was developed using these technologies:
 - Javascript
 - CSS
 - NodeJs
-  -Express
+ -Express
 
 ## 💻 Project
 
