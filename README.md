@@ -1,5 +1,9 @@
 <h1 align="center">
+<<<<<<< HEAD
     <img alt="9 3/4 todolist" title="Happy" src="./images/final_logo.png" width="300px" />
+=======
+    <img alt="9 3/4 todolist" title="Happy" src="./images/logo.png" width="300px" />
+>>>>>>> 3f1750c78bdcc8cefc322a0f74e723e50b4727e3
 </h1>
 <p align="center">
  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=15C3D6&labelColor=000000" alt="PRs are welcome!" />
@@ -9,12 +13,22 @@
 
 <br>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3f1750c78bdcc8cefc322a0f74e723e50b4727e3
 ## 🚀 Technologies
 
 This project was developed using these technologies:
 
+<<<<<<< HEAD
 - Javascript
 - CSS
+=======
+- [Javascript]
+- [CSS]
+- [SASS]
+>>>>>>> 3f1750c78bdcc8cefc322a0f74e723e50b4727e3
 
 ## 💻 Project
 
