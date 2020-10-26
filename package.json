@@ -1,0 +1,24 @@
+{
+  "name": "9.75-todolist",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">     <img alt=\"9 3/4 todolist\" title=\"Happy\" src=\"./images/final_logo.png\" width=\"300px\" /> </h1> <p align=\"center\">  <img src=\"https://img.shields.io/static/v1?label=PRs&message=welcome&color=15C3D6&labelColor=000000\" alt=\"PRs are welcome!\" />",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WallysLS/TODO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WallysLS/TODO/issues"
+  },
+  "homepage": "https://github.com/WallysLS/TODO#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
