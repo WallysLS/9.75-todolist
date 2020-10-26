@@ -8,13 +8,9 @@
 </p>
 
 <p float="left">
-<<<<<<< HEAD
-  <img src=".//images/final_ipad.png" width="100" />
-  <img src="./images/iphone.png" width="100" />
-=======
-  <img src=".//images/final_ipad.png" width="600"/>
-  <img src="./images/j.png" width="150" />
->>>>>>> 94076ecbdd00b153682393fdbafc7e2b019282bd
+
+  <img src=".//images/final_ipad.png" width="600" />
+  <img src="./images/iphone.png" width="150" />
 </p>
 
 <br>
