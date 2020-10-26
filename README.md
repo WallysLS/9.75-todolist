@@ -9,7 +9,7 @@
 
 <p float="left">
   <img src=".//images/final_ipad.png" width="100" />
-  <img src="./images/j.png" width="100" />
+  <img src="./images/iphone.png" width="100" />
 </p>
 
 <br>
