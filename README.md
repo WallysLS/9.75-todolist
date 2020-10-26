@@ -22,7 +22,7 @@ This project was developed using these technologies:
 - Javascript
 - CSS
 - NodeJs
- -Express
+- Express
 
 ## 💻 Project
 
