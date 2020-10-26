@@ -4,13 +4,15 @@
   box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background-image: url("./express2.jpg");
+  background-size: cover;
   color: white;
   font-family: "Quicksand", sans-serif;
   min-height: 100vh;
 }
 header {
   font-size: 2rem;
+  color: gold;
 }
 
 header,
@@ -38,7 +40,7 @@ form input {
 
 form button {
   height: 56px;
-  color: #ff6f47;
+  color: #e4a594;
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -46,7 +48,7 @@ form button {
   border-top-right-radius: 10px;
 }
 form button:hover {
-  background: #ff6f47;
+  background: #fa8d6f;
   color: white;
 }
 .todo-container {
@@ -86,7 +88,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  background: #ff6f47;
+  background: #ff0000c0;
   color: white;
   border: none;
   padding: 1rem;
@@ -94,7 +96,7 @@ form button:hover {
   font-size: 1rem;
 }
 .complete-btn {
-  background: rgb(11, 212, 162);
+  background: rgba(0, 255, 55, 0.753);
 }
 .todo-item {
   padding: 0rem 0.5rem;
@@ -111,9 +113,9 @@ form button:hover {
 }
 
 .fall {
-  transform: translateY(10rem) rotateZ(20deg);
+  transform: translateX(20rem) rotateZ(180deg);
   opacity: 0;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .completed {
@@ -134,7 +136,8 @@ form button:hover {
   top: 0;
   right: 0;
   padding: 1rem;
-  background: #ff6f47;
+  background: #fa8d6f;
+
   cursor: pointer;
   pointer-events: none;
   border-bottom-right-radius: 10px;
@@ -152,7 +155,7 @@ select {
 }
 
 select {
-  color: #ff6f47;
+  color: #e28a71;
   font-family: "Quicksand", sans-serif;
   cursor: pointer;
   width: 12rem;
